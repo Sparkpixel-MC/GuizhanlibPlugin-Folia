@@ -57,7 +57,7 @@ dependencies {
     implementation("com.google.code.findbugs:jsr305:3.0.2")
     api("com.github.houbb:pinyin:0.4.0")
 
-    compileOnlyAndTestImplementation("io.papermc.paper:paper-api:1.20.6-R0.1-SNAPSHOT")
+    compileOnlyAndTestImplementation("io.papermc.paper:paper-api:1.21.8-R0.1-SNAPSHOT")
     compileOnlyAndTestImplementation("com.github.slimefun:slimefun:4.1-SNAPSHOT")
 
     // mockbukkit
