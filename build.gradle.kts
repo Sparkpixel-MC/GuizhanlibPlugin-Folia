@@ -146,3 +146,9 @@ publishing {
         }
     }
 }
+
+configurations.all {
+    resolutionStrategy.dependencySubstitution {
+        substitute(module("com.molean:FoliaAdapter")).using(module("com.molean:foliaadapter:1.0-SNAPSHOT"))
+    }
+}
